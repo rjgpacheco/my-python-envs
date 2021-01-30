@@ -1,0 +1,23 @@
+name: jupyter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - jupyterlab_code_formatter
+  - jupyterlab_execute_time
+  - jupyterlab-lsp
+  - jupyterlab>=3.0.0,<4.0.0a0
+  - jupyterthemes
+  - nbconvert<6 # See https://github.com/ipython-contrib/jupyter_contrib_nbextensions/issues/1529
+  - nodejs
+  - pip
+  - python
+  - python-language-server
+  - widgetsnbextension
+  - pip:
+    - isort
+    - jedi<0.18 # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
+    - lantern
