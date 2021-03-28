@@ -18,6 +18,16 @@ dependencies:
   - python-language-server
   - widgetsnbextension
   - pip:
+    - aquirdturtle_collapsible_headings
     - isort
     - jedi<0.18 # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
+    - jupyterlab-fasta
+    - jupyterlab-geojson
+    - jupyterlab-katex
+    - jupyterlab-mathjax3
+    - jupyterlab-spellchecker
+    - jupyterlab-vega2
+    - jupyterlab-vega3
     - lantern
+    - nbdime
+
