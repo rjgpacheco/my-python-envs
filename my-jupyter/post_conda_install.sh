@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# https://github.com/QuantStack/ipysheet
 
 set -x
 
@@ -35,6 +36,8 @@ mkdir /Users/ricardo/Library/Caches/black/20.8b1/
  jupyter labextension install @arbennett/base16-mexico-light
  jupyter labextension install @arbennett/base16-summerfruit-light
 
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install ipysheet
 
 # Check if everything is OK.
 jupyter labextension list

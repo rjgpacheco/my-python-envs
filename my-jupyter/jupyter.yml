@@ -19,6 +19,7 @@ dependencies:
   - widgetsnbextension
   - pip:
     - aquirdturtle_collapsible_headings
+    - ipysheet
     - isort
     - jedi<0.18 # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
     - jupyterlab-fasta
