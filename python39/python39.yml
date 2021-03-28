@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - black
+  - ipywidgets
   - ipykernel
   - ipython
   - ipython_genutils
