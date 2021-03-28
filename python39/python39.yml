@@ -1,0 +1,29 @@
+name: python39
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter
+  - matplotlib
+  - nbconvert
+  - nbformat
+  - numpy
+  - pandas
+  - pip
+  - python=3.9
+  - scipy
+  - seaborn
+  - pip:
+    - flake8
+    - humanize
+    - jedi<0.18 # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
+    - networkx
+    - pyperclip
+    - rich
+    - scikit-learn
+    - strconv
+    - tabulate
