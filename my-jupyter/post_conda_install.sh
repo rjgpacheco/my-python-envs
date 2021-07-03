@@ -31,10 +31,10 @@ mkdir /Users/ricardo/Library/Caches/black/20.8b1/
 
 
 # Themes
- jupyter labextension install @arbennett/base16-nord
- jupyter labextension install @arbennett/base16-one-dark
- jupyter labextension install @arbennett/base16-mexico-light
- jupyter labextension install @arbennett/base16-summerfruit-light
+jupyter labextension install @arbennett/base16-nord
+jupyter labextension install @arbennett/base16-one-dark
+jupyter labextension install @arbennett/base16-mexico-light
+jupyter labextension install @arbennett/base16-summerfruit-light
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install ipysheet

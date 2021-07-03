@@ -1,4 +1,4 @@
-name: python39
+name: base
 channels:
   - conda-forge
   - defaults
