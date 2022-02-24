@@ -18,18 +18,18 @@ fi
 jupyter nbextension enable --py widgetsnbextension
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
-# https://github.com/ryantam626/jupyterlab_code_formatter/pull/186
+# https://github.com/ryantam626/jupyterlab_code_formatter/pull/186
 
 jupyter server extension enable jupyterlab_code_formatter
 # if you installed the plugin with pip and using --user, you need to add it here as well
 jupyter server extension enable --user jupyterlab_code_formatter
 
-# Install additional extensions
-# source $CONDA_PREFIX/bin/activate jupyterlab
+# Install additional extensions
+# source $CONDA_PREFIX/bin/activate jupyterlab
 
 
 
-# jupyter contrib nbextension install --user
-# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+# jupyter contrib nbextension install --user
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 # source conda deactivate

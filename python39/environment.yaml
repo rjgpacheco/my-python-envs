@@ -21,7 +21,7 @@ dependencies:
   - pip:
     - flake8
     - humanize
-    - jedi # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
+    - jedi # Jedi 0.18 has a bug that crashes IPython and doesn't work in Jupyter.
     - networkx
     - pyperclip
     - rich
