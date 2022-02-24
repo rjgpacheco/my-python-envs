@@ -1,0 +1,29 @@
+name: python310
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - flake8
+  - humanize
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - isort
+  - jedi
+  - jupyter
+  - matplotlib
+  - nbconvert
+  - nbformat
+  - networkx
+  - numpy
+  - pandas
+  - pip
+  - pyperclip
+  - python=3.10
+  - rich
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tabulate
