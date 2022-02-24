@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - black
+  - ipywidgets
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
   - jupyterlab_code_formatter
@@ -31,4 +32,5 @@ dependencies:
     - jupyterlab-vega3
     - lantern
     - nbdime
+    - rich
 

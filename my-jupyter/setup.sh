@@ -22,7 +22,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 jupyter server extension enable jupyterlab_code_formatter
 # if you installed the plugin with pip and using --user, you need to add it here as well
-jupyter server extension enable --user jupyterlab_code_formatte
+jupyter server extension enable --user jupyterlab_code_formatter
 
 # Install additional extensions
 # source $CONDA_PREFIX/bin/activate jupyterlab
